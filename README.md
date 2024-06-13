@@ -1,33 +1,31 @@
 UML
 -------------------
-| GeometricObject  |
+ GeometricObject
 -------------------
-| -color: String   |
-| -filled: boolean |
+- color: String
+- filled: boolean
 -------------------
-|   +getColor()    |
-|   +setColor()    |
-|   +isFilled()    |
-|   +setFilled()   |
-|   +toString()    |
++ getColor()
++ setColor()
++ isFilled()
++ setFilled()
++ toString()
 -------------------
-        ^
-        |
-        |
-        |
+  ^
+  |
 -------------------
-|   Triangle      |
+  Triangle
 -------------------
-| - side1: double |
-| - side2: double |
-| - side3: double |
+- side1: double
+- side2: double
+- side3: double
 -------------------
-| + Triangle()    |
-| + Triangle(side1: double, side2: double, side3: double) |
-| + getSide1(): double |
-| + getSide2(): double |
-| + getSide3(): double |
-| + getArea(): double |
-| + getPerimeter(): double |
-| + toString(): String |
++ Triangle()
++ Triangle(side1: double, side2: double, side3: double)
++ getSide1(): double
++ getSide2(): double
++ getSide3(): double
++ getArea(): double
++ getPerimeter(): double
++ toString(): String
 -------------------
